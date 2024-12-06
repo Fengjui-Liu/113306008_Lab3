@@ -47,7 +47,7 @@
         if (userGuess === secretNumber) {
           alert("恭喜你答對了！");
           document.getElementById("result").innerHTML =
-            '<img src="correct.jpg" alt="Correct!">';
+            '<img src="https://github.com/Fengjui-Liu/113306008_LAB3/raw/main/correct.jpg" alt="Correct!">';
           return;
         } else if (userGuess < secretNumber) {
           alert("太小了！再試一次。");
@@ -59,7 +59,7 @@
       // If user runs out of attempts
       alert(`你已經用完所有次數！正確答案是: ${secretNumber}`);
       document.getElementById("result").innerHTML =
-        '<img src="wrong.jpg" alt="Wrong!">';
+        '<img src="https://github.com/Fengjui-Liu/113306008_LAB3/raw/main/wrong.jpg" alt="Wrong!">';
     }
 
     // Start the game
